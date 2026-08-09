@@ -12,7 +12,7 @@
  */
 
 import { chromium } from 'playwright';
-import { writeFileSync, readFileSync, existsSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
 import { homedir } from 'os';
 import { getToken as getAuthToken, isLoggedIn as checkLoggedIn, logout as doLogout } from './svp-auth.js';
@@ -34,40 +34,60 @@ const STORAGE_FILE = join(process.cwd(), '.svp-storage.json');
 const BROWSER_LAUNCH_OPTS = process.platform === 'win32' ? { channel: 'msedge' } : {};
 
 // ─── Browser Executable Resolution ─────────────────────────────────
-// On Vercel / Linux the bundled Chromium is installed into the project under
-// node_modules/playwright-core/.local-browsers (PLAYWRIGHT_BROWSERS_PATH=0) so
-// it ships inside the serverless function bundle. This helper locates the exact
-// executable file deterministically, so launching works even if the runtime env
-// var was never set or points at a non-existent directory.
+// The Playwright Chromium binary ends up in different folders depending on the
+// deployment host, and images may carry the full `chromium-<rev>` build or only
+// the lightweight `chromium_headless_shell-<rev>` build (e.g. Railway Railpack
+// runs `playwright install --only-shell`). We scan the known install roots and
+// existence-check the exact binary file, so `executablePath` is set correctly
+// on Vercel, Railway and bare Linux hosts.
+const BROWSER_BINARY_CANDIDATES = [
+  ['chrome-linux64', 'chrome'], // full chromium (linux)
+  ['chrome-linux64', 'chrome-headless-shell'], // headless shell (linux / Railway)
+  ['chrome-win64', 'chrome.exe'], // full chromium (windows)
+  ['chrome-mac', 'Chromium.app', 'Contents', 'MacOS', 'Chromium'] // full chromium (mac)
+];
+
+function findBrowserInDir(browsersDir) {
+  let entries;
+  try {
+    entries = readdirSync(browsersDir, { withFileTypes: true });
+  } catch {
+    return null;
+  }
+  for (const entry of entries) {
+    if (!entry.isDirectory()) continue;
+    for (const rel of BROWSER_BINARY_CANDIDATES) {
+      const candidate = join(browsersDir, entry.name, ...rel);
+      if (existsSync(candidate)) {
+        console.log(`[svp-playwright] Browser executable: ${candidate}`);
+        return candidate;
+      }
+    }
+  }
+  return null;
+}
+
 function resolveChromiumExecutable() {
   if (process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE && existsSync(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE)) {
     return process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE;
   }
 
-  let revision = null;
-  try {
-    const browsersJsonPath = join(process.cwd(), 'node_modules', 'playwright-core', 'browsers.json');
-    const browsers = JSON.parse(readFileSync(browsersJsonPath, 'utf-8')).browsers || [];
-    const entry = browsers.find((b) => b.name === 'chromium');
-    revision = entry ? entry.revision : null;
-  } catch {}
-  if (!revision) return null;
-
-  const binaryPath = process.platform === 'win32'
-    ? join('chrome-win64', 'chrome.exe')
-    : process.platform === 'darwin'
-      ? join('chrome-mac', 'Chromium.app', 'Contents', 'MacOS', 'Chromium')
-      : join('chrome-linux64', 'chrome');
-
-  const installRoots = [
-    join(process.cwd(), 'node_modules', 'playwright-core', '.local-browsers'),
-    join(homedir(), '.cache', 'ms-playwright'),
-    join(process.env.HOME || '/root', '.cache', 'ms-playwright')
+  const searchRoots = [
+    join(process.cwd(), 'node_modules', 'playwright-core', '.local-browsers'), // Vercel (PLAYWRIGHT_BROWSERS_PATH=0)
+    join(process.cwd(), 'node_modules', '.cache', 'ms-playwright'), // Railway Railpack
+    ...(process.env.PLAYWRIGHT_BROWSERS_PATH && process.env.PLAYWRIGHT_BROWSERS_PATH !== '0'
+      ? [process.env.PLAYWRIGHT_BROWSERS_PATH]
+      : []),
+    ...(process.env.HOME ? [join(process.env.HOME, '.cache', 'ms-playwright')] : []),
+    join(homedir(), '.cache', 'ms-playwright')
   ];
 
-  for (const root of installRoots) {
-    const candidate = join(root, `chromium-${revision}`, binaryPath);
-    if (existsSync(candidate)) return candidate;
+  const seen = new Set();
+  for (const root of searchRoots) {
+    if (!root || seen.has(root)) continue;
+    seen.add(root);
+    const found = findBrowserInDir(root);
+    if (found) return found;
   }
   return null;
 }
@@ -230,6 +250,46 @@ async function closeManagedBrowser() {
     managedPage = null;
     managedBrowserReady = false;
   }
+}
+
+// ─── Browser Smoke Test (deployment diagnostics) ────────────────
+// Public diagnostic used to prove Chromium is actually launchable in the
+// deployed container (Railway / Vercel). Returns where the executable was
+// found and does a real headless navigation.
+export async function probeBrowser() {
+  const info = {
+    platform: process.platform,
+    cwd: process.cwd(),
+    env: {
+      PLAYWRIGHT_BROWSERS_PATH: process.env.PLAYWRIGHT_BROWSERS_PATH || null,
+      HOME: process.env.HOME || null
+    }
+  };
+  try {
+    info.resolvedExecutable = resolveChromiumExecutable();
+    info.executableExists = info.resolvedExecutable ? existsSync(info.resolvedExecutable) : false;
+
+    const browser = await chromium.launch(getLaunchOptions({
+      headless: true,
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-blink-features=AutomationControlled'
+      ]
+    }));
+    info.launched = true;
+    const page = await browser.newPage();
+    await page.goto('https://example.com', { waitUntil: 'domcontentloaded', timeout: 20000 });
+    info.title = await page.title();
+    await browser.close();
+    info.ok = true;
+  } catch (error) {
+    info.ok = false;
+    info.error = String(error && error.message ? error.message : error).slice(0, 2000);
+    info.stack = error && error.stack ? String(error.stack).slice(0, 4000) : null;
+  }
+  return info;
 }
 
 // ─── Login (Browser-visible, manual OTP) ────────────────────────
