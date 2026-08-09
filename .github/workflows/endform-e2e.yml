@@ -1,7 +1,10 @@
 name: Run end to end tests with endform
 
 on:
-  pull_request: # or push: if you want to run on commits to main
+  push:
+    branches:
+      - main
+  pull_request:
     branches:
       - main
 
@@ -19,7 +22,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v4
 
-      - name: Set up pnpm (or whichever package manager you use)
+      - name: Set up pnpm
         uses: pnpm/action-setup@v4
         with:
           run_install: true
@@ -27,10 +30,10 @@ jobs:
       - name: Wait for Vercel deployment
         uses: endformdev/actions/run-with-vercel-deployment@main
         with:
-          project-name: your-vercel-project-name
-          set-url-env-var: BASE_URL # Sets the Vercel preview URL as this environment variable
+          project-name: playwright-mcp
+          set-url-env-var: BASE_URL
 
       - name: Run end to end tests with endform
-        working-directory: . # where your playwright suite is located
+        working-directory: .
         run: |
           npx endform@latest test
