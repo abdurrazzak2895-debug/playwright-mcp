@@ -1,0 +1,1279 @@
+▲ Next.js 16.2.10
+- Local:         http://localhost:3101
+- Network:       http://100.75.190.73:3101
+✓ Ready in 1060ms
+[Login] Waiting for manual login (timeout: 5 minutes)...
+[Login] Waiting for manual login (timeout: 5 minutes)...
+[Login] Saved SPA session state to .svp-storage.json
+[svp-playwright] browser launch failed, falling back to direct fetch: page.goto: net::ERR_ABORTED at https://svp-international.pacc.sa/
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa/", waiting until "domcontentloaded"[22m
+
+[takamol] fetchAvailableDates: 12 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","test_center":{"city":"Chattogram"}}
+[svp-playwright] browser launch failed, falling back to direct fetch: page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa/", waiting until "domcontentloaded"[22m
+
+[svp-playwright] browser launch failed, falling back to direct fetch: page.goto: net::ERR_ABORTED at https://svp-international.pacc.sa/
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa/", waiting until "domcontentloaded"[22m
+
+[takamol/dates] Raw dates count: 12
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","test_center":{"city":"Chattogram"}}
+[takamol/dates] Unique dates: 8
+[takamol/dates] Sessions by date: {
+  '2026-08-11': 2,
+  '2026-08-12': 1,
+  '2026-08-13': 2,
+  '2026-08-18': 2,
+  '2026-08-19': 1,
+  '2026-08-20': 2,
+  '2026-08-25': 1,
+  '2026-08-27': 1
+}
+[takamol] fetchAvailableDates: 7 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Sylhet"}}
+[takamol/dates] Raw dates count: 7
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Sylhet"}}
+[takamol/dates] Unique dates: 7
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 1,
+  '2026-08-13': 1,
+  '2026-08-18': 1,
+  '2026-08-20': 1,
+  '2026-08-24': 1,
+  '2026-08-27': 1,
+  '2026-08-31': 1
+}
+[takamol] fetchAvailableDates: 461 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Raw dates count: 461
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 22
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 18,
+  '2026-08-11': 20,
+  '2026-08-12': 20,
+  '2026-08-13': 21,
+  '2026-08-15': 5,
+  '2026-08-16': 25,
+  '2026-08-17': 28,
+  '2026-08-18': 33,
+  '2026-08-19': 33,
+  '2026-08-20': 32,
+  '2026-08-22': 8,
+  '2026-08-23': 34,
+  '2026-08-24': 35,
+  '2026-08-25': 30,
+  '2026-08-26': 8,
+  '2026-08-27': 31,
+  '2026-08-29': 8,
+  '2026-08-30': 35,
+  '2026-08-31': 34,
+  '2026-09-06': 1,
+  '2026-10-04': 1,
+  '2026-11-01': 1
+}
+[exam/certificate] Error: Cannot read properties of undefined (reading 'get')
+[exam/certificate] Error: Cannot read properties of undefined (reading 'get')
+[takamol] fetchAvailableDates: 1 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","test_center":{"city":"Dhaka"}}
+[takamol/dates] Raw dates count: 1
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 1
+[takamol/dates] Sessions by date: { '2026-08-23': 1 }
+[takamol] fetchAvailableDates: 84 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Raw dates count: 84
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 19
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 5,
+  '2026-08-11': 5,
+  '2026-08-12': 5,
+  '2026-08-13': 5,
+  '2026-08-15': 2,
+  '2026-08-16': 5,
+  '2026-08-17': 5,
+  '2026-08-18': 6,
+  '2026-08-19': 5,
+  '2026-08-20': 5,
+  '2026-08-22': 4,
+  '2026-08-23': 5,
+  '2026-08-24': 5,
+  '2026-08-25': 3,
+  '2026-08-26': 2,
+  '2026-08-27': 5,
+  '2026-08-29': 2,
+  '2026-08-30': 5,
+  '2026-08-31': 5
+}
+[takamol] fetchAvailableDates: 19 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Cumilla"}}
+[takamol/dates] Raw dates count: 19
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Cumilla"}}
+[takamol/dates] Unique dates: 11
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 2,
+  '2026-08-11': 3,
+  '2026-08-16': 1,
+  '2026-08-17': 1,
+  '2026-08-18': 3,
+  '2026-08-23': 2,
+  '2026-08-24': 1,
+  '2026-08-25': 3,
+  '2026-08-30': 1,
+  '2026-08-31': 1,
+  '2026-09-01': 1
+}
+[takamol] fetchAvailableDates: 2 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","test_center":{"city":"Mymensingh"}}
+[takamol/dates] Raw dates count: 2
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","test_center":{"city":"Mymensingh"}}
+[takamol/dates] Unique dates: 2
+[takamol/dates] Sessions by date: { '2026-08-24': 1, '2026-08-31': 1 }
+[takamol] fetchAvailableDates: 3 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-13","start_date_in_tc_time_zone":"2026-08-13","test_center":{"city":"Dhaka"}}
+[takamol/dates] Raw dates count: 3
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-13","start_date_in_tc_time_zone":"2026-08-13","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 3
+[takamol/dates] Sessions by date: { '2026-08-13': 1, '2026-08-20': 1, '2026-08-27': 1 }
+[takamol] fetchAvailableDates: 6 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","test_center":{"city":"Rajshahi"}}
+[takamol/dates] Raw dates count: 6
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","test_center":{"city":"Rajshahi"}}
+[takamol/dates] Unique dates: 5
+[takamol/dates] Sessions by date: {
+  '2026-08-11': 1,
+  '2026-08-12': 1,
+  '2026-08-19': 2,
+  '2026-08-25': 1,
+  '2026-09-02': 1
+}
+[takamol] fetchAvailableDates: 464 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Raw dates count: 464
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 22
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 17,
+  '2026-08-11': 20,
+  '2026-08-12': 20,
+  '2026-08-13': 21,
+  '2026-08-15': 5,
+  '2026-08-16': 24,
+  '2026-08-17': 28,
+  '2026-08-18': 34,
+  '2026-08-19': 35,
+  '2026-08-20': 34,
+  '2026-08-22': 8,
+  '2026-08-23': 34,
+  '2026-08-24': 35,
+  '2026-08-25': 30,
+  '2026-08-26': 8,
+  '2026-08-27': 31,
+  '2026-08-29': 8,
+  '2026-08-30': 35,
+  '2026-08-31': 34,
+  '2026-09-06': 1,
+  '2026-10-04': 1,
+  '2026-11-01': 1
+}
+[Login] Waiting for manual login (timeout: 5 minutes)...
+[Login] Saved SPA session state to .svp-storage.json
+[exam/cancel] Starting Playwright cancel: session=5155374
+[API CANCEL] POST https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_reservations/5155374/cancel
+[API CANCEL] Response: 200
+[exam/cancel] Playwright cancel succeeded: 200
+[takamol] fetchAvailableDates: 468 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Raw dates count: 468
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 22
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 18,
+  '2026-08-11': 20,
+  '2026-08-12': 20,
+  '2026-08-13': 20,
+  '2026-08-15': 5,
+  '2026-08-16': 25,
+  '2026-08-17': 28,
+  '2026-08-18': 34,
+  '2026-08-19': 37,
+  '2026-08-20': 35,
+  '2026-08-22': 8,
+  '2026-08-23': 34,
+  '2026-08-24': 35,
+  '2026-08-25': 30,
+  '2026-08-26': 8,
+  '2026-08-27': 31,
+  '2026-08-29': 8,
+  '2026-08-30': 35,
+  '2026-08-31': 34,
+  '2026-09-06': 1,
+  '2026-10-04': 1,
+  '2026-11-01': 1
+}
+[takamol/dates] Raw dates count: 468
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 22
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 18,
+  '2026-08-11': 20,
+  '2026-08-12': 20,
+  '2026-08-13': 20,
+  '2026-08-15': 5,
+  '2026-08-16': 25,
+  '2026-08-17': 28,
+  '2026-08-18': 34,
+  '2026-08-19': 37,
+  '2026-08-20': 35,
+  '2026-08-22': 8,
+  '2026-08-23': 34,
+  '2026-08-24': 35,
+  '2026-08-25': 30,
+  '2026-08-26': 8,
+  '2026-08-27': 31,
+  '2026-08-29': 8,
+  '2026-08-30': 35,
+  '2026-08-31': 34,
+  '2026-09-06': 1,
+  '2026-10-04': 1,
+  '2026-11-01': 1
+}
+[takamol/dates] Raw dates count: 468
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 22
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 18,
+  '2026-08-11': 20,
+  '2026-08-12': 20,
+  '2026-08-13': 20,
+  '2026-08-15': 5,
+  '2026-08-16': 25,
+  '2026-08-17': 28,
+  '2026-08-18': 34,
+  '2026-08-19': 37,
+  '2026-08-20': 35,
+  '2026-08-22': 8,
+  '2026-08-23': 34,
+  '2026-08-24': 35,
+  '2026-08-25': 30,
+  '2026-08-26': 8,
+  '2026-08-27': 31,
+  '2026-08-29': 8,
+  '2026-08-30': 35,
+  '2026-08-31': 34,
+  '2026-09-06': 1,
+  '2026-10-04': 1,
+  '2026-11-01': 1
+}
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-11&city=Dhaka&test_center_id=102&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-11&city=Dhaka&test_center_id=102&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"WWjUImYx4g--8Na8NT99GBQ7uEGl--Qk_kB9rHEHGaLWNXowXMzw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","status":"scheduled","test_center":{"city":"Dhaka","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"xOtr5bwkiQ--SJ4lFVfydXhxzJl5--diBUfzQh38rfZHUgvfRNQA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","status":"scheduled","test_center":{"city":"Dhaka","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"oRFMt3Q3Xg--_hfQuSWCmR4ooWjn--OWecEujynlSIiCcS0Z06Aw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","status":"scheduled","test_center":{"city":"Dhaka","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"wXDg8SDtzA--Wrig7-ROFD4bzBAS--xtl1c3ob2xXCwa1KZbxNZg","browser_time_zone_offset":"UTC+00:00","c
+[takamol] fetchExamSessions raw count: 6
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"WWjUImYx4g--8Na8NT99GBQ7uEGl--Qk_kB9rHEHGaLWNXowXMzw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","status":"scheduled","test_center":{"city":"Dhaka","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"xOtr5bwkiQ--SJ4lFVfydXhxzJl5--diBUfzQh38rfZHUgvfRNQA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","status":"scheduled","test_center":{"city":"Dhaka","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 6 (was 6)
+[takamol/sessions] targeted=6 prometric=0 sites=0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"nm21G1IXqA--MrnTjT9j9RfkxvgW--k-gRRqP8oF0EHa2JsH19zQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","status":"scheduled","test_center":{"city":"Dhaka","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"bCuOAc3cRQ--4-YFQAXMqhKPAbF6--tKaH6s8TWh44HWiUO8dG7A","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","status":"scheduled","test_center":{"city":"Dhaka","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"3iY2dEIX7A---TsIMAGYYgjUVZ2Z--8WfElkAFKsUVqsbSij_03g","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","status":"scheduled","test_center":{"city":"Dhaka","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"DOu0zpLQDQ--N6o2IXVzljFqbKx---G01a91h7uJvgNs4QIgLUyw","browser_time_zone_offset":"UTC+00:00","c
+[takamol] fetchExamSessions raw count: 6
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"nm21G1IXqA--MrnTjT9j9RfkxvgW--k-gRRqP8oF0EHa2JsH19zQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","status":"scheduled","test_center":{"city":"Dhaka","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"bCuOAc3cRQ--4-YFQAXMqhKPAbF6--tKaH6s8TWh44HWiUO8dG7A","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-11","start_date_in_tc_time_zone":"2026-08-11","status":"scheduled","test_center":{"city":"Dhaka","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 6 (was 6)
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Dhaka&start_date=2026-08-11&end_date=2026-08-11
+[takamol/sessions] targeted=6 prometric=0 sites=0
+[takamol] fetchAvailableDates: 58 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Mymensingh"}}
+[takamol/dates] Raw dates count: 58
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Mymensingh"}}
+[takamol/dates] Unique dates: 18
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 3,
+  '2026-08-11': 3,
+  '2026-08-12': 3,
+  '2026-08-13': 3,
+  '2026-08-15': 1,
+  '2026-08-16': 3,
+  '2026-08-17': 3,
+  '2026-08-18': 5,
+  '2026-08-19': 5,
+  '2026-08-20': 4,
+  '2026-08-22': 2,
+  '2026-08-23': 3,
+  '2026-08-24': 3,
+  '2026-08-25': 5,
+  '2026-08-27': 4,
+  '2026-08-29': 2,
+  '2026-08-30': 3,
+  '2026-08-31': 3
+}
+[takamol/dates] Raw dates count: 468
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 22
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 18,
+  '2026-08-11': 20,
+  '2026-08-12': 20,
+  '2026-08-13': 20,
+  '2026-08-15': 5,
+  '2026-08-16': 25,
+  '2026-08-17': 28,
+  '2026-08-18': 34,
+  '2026-08-19': 37,
+  '2026-08-20': 35,
+  '2026-08-22': 8,
+  '2026-08-23': 34,
+  '2026-08-24': 35,
+  '2026-08-25': 30,
+  '2026-08-26': 8,
+  '2026-08-27': 31,
+  '2026-08-29': 8,
+  '2026-08-30': 35,
+  '2026-08-31': 34,
+  '2026-09-06': 1,
+  '2026-10-04': 1,
+  '2026-11-01': 1
+}
+[takamol/dates] Raw dates count: 468
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 22
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 18,
+  '2026-08-11': 20,
+  '2026-08-12': 20,
+  '2026-08-13': 20,
+  '2026-08-15': 5,
+  '2026-08-16': 25,
+  '2026-08-17': 28,
+  '2026-08-18': 34,
+  '2026-08-19': 37,
+  '2026-08-20': 35,
+  '2026-08-22': 8,
+  '2026-08-23': 34,
+  '2026-08-24': 35,
+  '2026-08-25': 30,
+  '2026-08-26': 8,
+  '2026-08-27': 31,
+  '2026-08-29': 8,
+  '2026-08-30': 35,
+  '2026-08-31': 34,
+  '2026-09-06': 1,
+  '2026-10-04': 1,
+  '2026-11-01': 1
+}
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-10&city=Rajshahi&test_center_id=201&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-10&city=Rajshahi&test_center_id=201&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"h8hKxqtmuw--YUD2u74HwctHaYrk--SDz7UYxpnmc03d9FK6ozRA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","status":"scheduled","test_center":{"city":"Rajshahi","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"ZtrgJH3UFg--dWWECYKxnCuIGKCP--WeLCQC-Wo1AhLVZEZOxjGg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","status":"scheduled","test_center":{"city":"Rajshahi","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"A0r2AOpdoA--GGBUQGTOx3P2jlQk--vFW2kVBzyiYZePliMA7H4g","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","status":"scheduled","test_center":{"city":"Rajshahi","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"YkN4dxCk3A--9KwegTS4gpbG1fbE--wbSeq85vDomTpetSDTT_kg","browser_time_zone_offset":"UTC+
+[takamol] fetchExamSessions raw count: 6
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"h8hKxqtmuw--YUD2u74HwctHaYrk--SDz7UYxpnmc03d9FK6ozRA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","status":"scheduled","test_center":{"city":"Rajshahi","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"ZtrgJH3UFg--dWWECYKxnCuIGKCP--WeLCQC-Wo1AhLVZEZOxjGg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","status":"scheduled","test_center":{"city":"Rajshahi","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 6 (was 6)
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Rajshahi&start_date=2026-08-10&end_date=2026-08-10
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"NVMpdG_x1A--g-I6YqR-gLCdB4c3--s3nGaXVbjz4ctdw3JvQ2vQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","status":"scheduled","test_center":{"city":"Rajshahi","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"oE9i-razsg--PWRV7V31B-gFj9_l--LB-B6hbeclyb9o-J5NBPlQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","status":"scheduled","test_center":{"city":"Rajshahi","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"1eG73Ez1QA--Js7bfw1Jz1TRJT6L--CbmrjvEsLyEur_jviDCLsA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","status":"scheduled","test_center":{"city":"Rajshahi","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"BZ0i5RF8yw--EZPztXzSONwLIX1X--jCOhBNS5hIXYOz4RSlKtlg","browser_time_zone_offset":"UTC+
+[takamol] fetchExamSessions raw count: 6
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"NVMpdG_x1A--g-I6YqR-gLCdB4c3--s3nGaXVbjz4ctdw3JvQ2vQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","status":"scheduled","test_center":{"city":"Rajshahi","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"oE9i-razsg--PWRV7V31B-gFj9_l--LB-B6hbeclyb9o-J5NBPlQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","status":"scheduled","test_center":{"city":"Rajshahi","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 6 (was 6)
+[takamol/sessions] targeted=6 prometric=0 sites=0
+[takamol/sessions] targeted=6 prometric=0 sites=0
+[Login] Waiting for manual login (timeout: 5 minutes)...
+[Login] Saved SPA session state to .svp-storage.json
+[takamol] fetchAvailableDates: 467 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Raw dates count: 467
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 22
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 18,
+  '2026-08-11': 20,
+  '2026-08-12': 20,
+  '2026-08-13': 21,
+  '2026-08-15': 5,
+  '2026-08-16': 25,
+  '2026-08-17': 27,
+  '2026-08-18': 33,
+  '2026-08-19': 36,
+  '2026-08-20': 36,
+  '2026-08-22': 8,
+  '2026-08-23': 34,
+  '2026-08-24': 35,
+  '2026-08-25': 30,
+  '2026-08-26': 8,
+  '2026-08-27': 31,
+  '2026-08-29': 8,
+  '2026-08-30': 35,
+  '2026-08-31': 34,
+  '2026-09-06': 1,
+  '2026-10-04': 1,
+  '2026-11-01': 1
+}
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-18&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-18&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"-58NzlamIA--ml7L-Z2JqfDIgMcC--AepWYkxY7Num862VRUehbg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"Ch2Zkk28XA--LSquz5WI-xKzsGhn--hdk_g1-j937bSAnX3BU74A","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"fYuQ8x56rg--f9bQHLkCHEqbTrDX--__4zn5oQKRu6OvY_hDuHfw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"TmZE17Omtg--XZG37OmPsLt_PGcj--ubaPQsN9auXL0rN9N4w-bA","browser_time_zone_offset":"UTC+
+[takamol] fetchExamSessions raw count: 4
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"-58NzlamIA--ml7L-Z2JqfDIgMcC--AepWYkxY7Num862VRUehbg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"Ch2Zkk28XA--LSquz5WI-xKzsGhn--hdk_g1-j937bSAnX3BU74A","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 4 (was 4)
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-18&end_date=2026-08-18
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"8XOstnh4Jw--wTJW6Gy5zbnX9CQA--oh2OkuDLkeNSGFt1rogbHw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"V9qFkPFDug--1ZYuSvG_1HX0Ku2Z--uR_wkpw1YLMMD7FyhUxvjg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"5EU5PDugYw--WtmrlteRhVEv-KKi--9HPX-2R0f9tXPZfqPYWk6g","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"CTh781UALQ--_B5I3zqHxvNowSZc--MSh_PjyaV7z3LXnOuswKwQ","browser_time_zone_offset":"UTC+
+[takamol] fetchExamSessions raw count: 4
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"8XOstnh4Jw--wTJW6Gy5zbnX9CQA--oh2OkuDLkeNSGFt1rogbHw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"V9qFkPFDug--1ZYuSvG_1HX0Ku2Z--uR_wkpw1YLMMD7FyhUxvjg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 4 (was 4)
+[takamol/sessions] targeted=4 prometric=0 sites=0
+[takamol/sessions] targeted=4 prometric=0 sites=0
+
+╔═══════════════════════════════════════════════════════════
+║  [SERVER] Incoming Rebook Request
+╠═══════════════════════════════════════════════════════════
+║  categoryId:    159
+║  occupationId:  2061
+║  cityName:      Barishal
+║  newDate:       2026-08-18
+║  examSessionId: -58NzlamIA--ml7L-Z2JqfDIgMcC--AepWYkxY7Num862VRUehbg
+║  languageCode:  LOABB (PROMETRIC code, e.g. LOABB)
+║  methodology:   in_person
+║  siteId:        180
+║  siteCity:      Barishal
+║  duration:      null
+║  startAt:       2026-08-18
+╚═══════════════════════════════════════════════════════════
+
+[API REBOOK] Slot hold: 422 holdId=null
+[API REBOOK] Payload to SVPI: {"exam_session_id":"-58NzlamIA--ml7L-Z2JqfDIgMcC--AepWYkxY7Num862VRUehbg","occupation_id":2061,"language_code":"LOABB","methodology":"in_person","site_id":180,"site_city":"Barishal","hold_id":null,"duration":null,"start_at":"2026-08-18","country_id":78,"accept_declaration":true,"info_confirmation":true,"practical_confirmation":true}
+[API REBOOK] Response: 200 OK
+[API REBOOK] Response body: {"id":5156578,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+[API REBOOK] Paying for reservation 5156578: {"methodology_type":"in_person","reservation_id":"5156578","occupation_id":2061}
+[API REBOOK] Payment: 400 FAIL
+[API REBOOK] Payment body: {"errors":{"reservation":{"reservation_credit":["Reservation credits is not found"]}}}
+[API REBOOK] Payment failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist.
+[exam/rebook] Raw result: {"ok":false,"status":400,"data":{"id":5156578,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practical Form - L1","practical_weight":75,"prometric_codes":[{"arabic_name":"النيبالية","code":"LOANN","english_name":"Nepali","exam_engine_id":1,"exam_engine_name":"prometric","id":643,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_name":"النيبالية","code":"f5fac3ae-30c1-450c-87a4-0b4346e3a2a7","english_name":"Nepali","exam_engine_id":2,"exam_engine_name":"tep","id":688,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_na
+[exam/rebook] Failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist. 400 {"id":5156578,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+
+╔═══════════════════════════════════════════════════════════
+║  [SERVER] Incoming Rebook Request
+╠═══════════════════════════════════════════════════════════
+║  categoryId:    159
+║  occupationId:  2061
+║  cityName:      Barishal
+║  newDate:       2026-08-18
+║  examSessionId: Ch2Zkk28XA--LSquz5WI-xKzsGhn--hdk_g1-j937bSAnX3BU74A
+║  languageCode:  LOABB (PROMETRIC code, e.g. LOABB)
+║  methodology:   in_person
+║  siteId:        180
+║  siteCity:      Barishal
+║  duration:      null
+║  startAt:       2026-08-18
+╚═══════════════════════════════════════════════════════════
+
+[API REBOOK] Slot hold: 422 holdId=null
+[API REBOOK] Payload to SVPI: {"exam_session_id":"Ch2Zkk28XA--LSquz5WI-xKzsGhn--hdk_g1-j937bSAnX3BU74A","occupation_id":2061,"language_code":"LOABB","methodology":"in_person","site_id":180,"site_city":"Barishal","hold_id":null,"duration":null,"start_at":"2026-08-18","country_id":78,"accept_declaration":true,"info_confirmation":true,"practical_confirmation":true}
+[API REBOOK] Response: 200 OK
+[API REBOOK] Response body: {"id":5156585,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+[API REBOOK] Paying for reservation 5156585: {"methodology_type":"in_person","reservation_id":"5156585","occupation_id":2061}
+[API REBOOK] Payment: 400 FAIL
+[API REBOOK] Payment body: {"errors":{"reservation":{"reservation_credit":["Reservation credits is not found"]}}}
+[API REBOOK] Payment failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist.
+[exam/rebook] Raw result: {"ok":false,"status":400,"data":{"id":5156585,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practical Form - L1","practical_weight":75,"prometric_codes":[{"arabic_name":"النيبالية","code":"LOANN","english_name":"Nepali","exam_engine_id":1,"exam_engine_name":"prometric","id":643,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_name":"النيبالية","code":"f5fac3ae-30c1-450c-87a4-0b4346e3a2a7","english_name":"Nepali","exam_engine_id":2,"exam_engine_name":"tep","id":688,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_na
+[exam/rebook] Failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist. 400 {"id":5156585,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+
+╔═══════════════════════════════════════════════════════════
+║  [SERVER] Incoming Rebook Request
+╠═══════════════════════════════════════════════════════════
+║  categoryId:    159
+║  occupationId:  2061
+║  cityName:      Barishal
+║  newDate:       2026-08-18
+║  examSessionId: fYuQ8x56rg--f9bQHLkCHEqbTrDX--__4zn5oQKRu6OvY_hDuHfw
+║  languageCode:  LOABB (PROMETRIC code, e.g. LOABB)
+║  methodology:   in_person
+║  siteId:        180
+║  siteCity:      Barishal
+║  duration:      null
+║  startAt:       2026-08-18
+╚═══════════════════════════════════════════════════════════
+
+[API REBOOK] Slot hold: 422 holdId=null
+[API REBOOK] Payload to SVPI: {"exam_session_id":"fYuQ8x56rg--f9bQHLkCHEqbTrDX--__4zn5oQKRu6OvY_hDuHfw","occupation_id":2061,"language_code":"LOABB","methodology":"in_person","site_id":180,"site_city":"Barishal","hold_id":null,"duration":null,"start_at":"2026-08-18","country_id":78,"accept_declaration":true,"info_confirmation":true,"practical_confirmation":true}
+[API REBOOK] Response: 200 OK
+[API REBOOK] Response body: {"id":5156590,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+[API REBOOK] Paying for reservation 5156590: {"methodology_type":"in_person","reservation_id":"5156590","occupation_id":2061}
+[API REBOOK] Payment: 400 FAIL
+[API REBOOK] Payment body: {"errors":{"reservation":{"reservation_credit":["Reservation credits is not found"]}}}
+[API REBOOK] Payment failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist.
+[exam/rebook] Raw result: {"ok":false,"status":400,"data":{"id":5156590,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practical Form - L1","practical_weight":75,"prometric_codes":[{"arabic_name":"النيبالية","code":"LOANN","english_name":"Nepali","exam_engine_id":1,"exam_engine_name":"prometric","id":643,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_name":"النيبالية","code":"f5fac3ae-30c1-450c-87a4-0b4346e3a2a7","english_name":"Nepali","exam_engine_id":2,"exam_engine_name":"tep","id":688,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_na
+[exam/rebook] Failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist. 400 {"id":5156590,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+
+╔═══════════════════════════════════════════════════════════
+║  [SERVER] Incoming Rebook Request
+╠═══════════════════════════════════════════════════════════
+║  categoryId:    159
+║  occupationId:  2061
+║  cityName:      Barishal
+║  newDate:       2026-08-18
+║  examSessionId: TmZE17Omtg--XZG37OmPsLt_PGcj--ubaPQsN9auXL0rN9N4w-bA
+║  languageCode:  LOABB (PROMETRIC code, e.g. LOABB)
+║  methodology:   in_person
+║  siteId:        180
+║  siteCity:      Barishal
+║  duration:      null
+║  startAt:       2026-08-18
+╚═══════════════════════════════════════════════════════════
+
+[API REBOOK] Slot hold: 429 holdId=null
+[API REBOOK] Payload to SVPI: {"exam_session_id":"TmZE17Omtg--XZG37OmPsLt_PGcj--ubaPQsN9auXL0rN9N4w-bA","occupation_id":2061,"language_code":"LOABB","methodology":"in_person","site_id":180,"site_city":"Barishal","hold_id":null,"duration":null,"start_at":"2026-08-18","country_id":78,"accept_declaration":true,"info_confirmation":true,"practical_confirmation":true}
+[API REBOOK] Response: 200 OK
+[API REBOOK] Response body: {"id":5156591,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+[API REBOOK] Paying for reservation 5156591: {"methodology_type":"in_person","reservation_id":"5156591","occupation_id":2061}
+[API REBOOK] Payment: 400 FAIL
+[API REBOOK] Payment body: {"errors":{"reservation":{"reservation_credit":["Reservation credits is not found"]}}}
+[API REBOOK] Payment failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist.
+[exam/rebook] Raw result: {"ok":false,"status":400,"data":{"id":5156591,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practical Form - L1","practical_weight":75,"prometric_codes":[{"arabic_name":"النيبالية","code":"LOANN","english_name":"Nepali","exam_engine_id":1,"exam_engine_name":"prometric","id":643,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_name":"النيبالية","code":"f5fac3ae-30c1-450c-87a4-0b4346e3a2a7","english_name":"Nepali","exam_engine_id":2,"exam_engine_name":"tep","id":688,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_na
+[exam/rebook] Failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist. 400 {"id":5156591,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+
+╔═══════════════════════════════════════════════════════════
+║  [SERVER] Incoming Rebook Request
+╠═══════════════════════════════════════════════════════════
+║  categoryId:    159
+║  occupationId:  2061
+║  cityName:      Barishal
+║  newDate:       2026-08-18
+║  examSessionId: TmZE17Omtg--XZG37OmPsLt_PGcj--ubaPQsN9auXL0rN9N4w-bA
+║  languageCode:  LOABB (PROMETRIC code, e.g. LOABB)
+║  methodology:   in_person
+║  siteId:        180
+║  siteCity:      Barishal
+║  duration:      null
+║  startAt:       2026-08-18
+╚═══════════════════════════════════════════════════════════
+
+[API REBOOK] Slot hold: 422 holdId=null
+[API REBOOK] Payload to SVPI: {"exam_session_id":"TmZE17Omtg--XZG37OmPsLt_PGcj--ubaPQsN9auXL0rN9N4w-bA","occupation_id":2061,"language_code":"LOABB","methodology":"in_person","site_id":180,"site_city":"Barishal","hold_id":null,"duration":null,"start_at":"2026-08-18","country_id":78,"accept_declaration":true,"info_confirmation":true,"practical_confirmation":true}
+[API REBOOK] Response: 422 FAIL
+[API REBOOK] Response body: {"errors":{"reservation":{"exam_session_id":["You cannot proceed with booking now, please try again in 3 minutes."]}}}
+[exam/rebook] Raw result: {"status":422,"ok":false,"data":{"errors":{"reservation":{"exam_session_id":["You cannot proceed with booking now, please try again in 3 minutes."]}}}}
+[exam/rebook] Failed: Rebook failed (HTTP 422) 422 {"errors":{"reservation":{"exam_session_id":["You cannot proceed with booking now, please try again in 3 minutes."]}}}
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-19&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-19&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"Lge6hdTbRA--w9Ao9yLOg_D3mQcK--9YU06E8y31FQWScNP7iOkg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-19","start_date_in_tc_time_zone":"2026-08-19","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"b-BtWQa41g--BXV8zkj4i8rgd2zC--0z0t0Cmw7GAT3yIoUsZPQg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-19","start_date_in_tc_time_zone":"2026-08-19","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"9wJpmJ78xQ--Kh7mL2Zka4OqcH3j--ezZ27vGN2gmXoyCfHpbsmQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-19","start_date_in_tc_time_zone":"2026-08-19","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"Lge6hdTbRA--w9Ao9yLOg_D3mQcK--9YU06E8y31FQWScNP7iOkg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-19","start_date_in_tc_time_zone":"2026-08-19","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"b-BtWQa41g--BXV8zkj4i8rgd2zC--0z0t0Cmw7GAT3yIoUsZPQg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-19","start_date_in_tc_time_zone":"2026-08-19","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"9JslhRGaYA--rralQdmoljD3Ft2A--1fLTrxw2c34gISUEXHDcBA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-19","start_date_in_tc_time_zone":"2026-08-19","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"pk6_dGjy5w--3dvpLXWYd3oXbkUH--XN7txrMEIt__TWoItHeI4g","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-19","start_date_in_tc_time_zone":"2026-08-19","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"tLYzMEjdbw--G9AIJ1YK9rju2EMN--tKV87jWxAVBJvteZdAmJYA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-19","start_date_in_tc_time_zone":"2026-08-19","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"9JslhRGaYA--rralQdmoljD3Ft2A--1fLTrxw2c34gISUEXHDcBA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-19","start_date_in_tc_time_zone":"2026-08-19","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"pk6_dGjy5w--3dvpLXWYd3oXbkUH--XN7txrMEIt__TWoItHeI4g","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-19","start_date_in_tc_time_zone":"2026-08-19","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-19&end_date=2026-08-19
+[takamol/sessions] targeted=3 prometric=0 sites=0
+
+╔═══════════════════════════════════════════════════════════
+║  [SERVER] Incoming Rebook Request
+╠═══════════════════════════════════════════════════════════
+║  categoryId:    159
+║  occupationId:  2061
+║  cityName:      Barishal
+║  newDate:       2026-08-19
+║  examSessionId: 9JslhRGaYA--rralQdmoljD3Ft2A--1fLTrxw2c34gISUEXHDcBA
+║  languageCode:  LOABB (PROMETRIC code, e.g. LOABB)
+║  methodology:   in_person
+║  siteId:        180
+║  siteCity:      Barishal
+║  duration:      null
+║  startAt:       2026-08-19
+╚═══════════════════════════════════════════════════════════
+
+[API REBOOK] Slot hold: 422 holdId=null
+[API REBOOK] Payload to SVPI: {"exam_session_id":"9JslhRGaYA--rralQdmoljD3Ft2A--1fLTrxw2c34gISUEXHDcBA","occupation_id":2061,"language_code":"LOABB","methodology":"in_person","site_id":180,"site_city":"Barishal","hold_id":null,"duration":null,"start_at":"2026-08-19","country_id":78,"accept_declaration":true,"info_confirmation":true,"practical_confirmation":true}
+[API REBOOK] Response: 200 OK
+[API REBOOK] Response body: {"id":5156600,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+[API REBOOK] Paying for reservation 5156600: {"methodology_type":"in_person","reservation_id":"5156600","occupation_id":2061}
+[API REBOOK] Payment: 400 FAIL
+[API REBOOK] Payment body: {"errors":{"reservation":{"reservation_credit":["Reservation credits is not found"]}}}
+[API REBOOK] Payment failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist.
+[exam/rebook] Raw result: {"ok":false,"status":400,"data":{"id":5156600,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practical Form - L1","practical_weight":75,"prometric_codes":[{"arabic_name":"النيبالية","code":"LOANN","english_name":"Nepali","exam_engine_id":1,"exam_engine_name":"prometric","id":643,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_name":"النيبالية","code":"f5fac3ae-30c1-450c-87a4-0b4346e3a2a7","english_name":"Nepali","exam_engine_id":2,"exam_engine_name":"tep","id":688,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_na
+[exam/rebook] Failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist. 400 {"id":5156600,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-20&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-20&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"9TUosWCTRQ--cHr3LT7aDyPIRERe--lhKF9HaFQZaaSNIrbZDBnA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-20","start_date_in_tc_time_zone":"2026-08-20","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"UnsTOkoelA--oPYqocKqd9WUxhaN--Sz0BlRv0qTUuVo4ticRncg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-20","start_date_in_tc_time_zone":"2026-08-20","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"yFKQXkTYTA--DFaQvr9Rjv1QRFvL--L1l588jWHEj4_VixpzfYQA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-20","start_date_in_tc_time_zone":"2026-08-20","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"9TUosWCTRQ--cHr3LT7aDyPIRERe--lhKF9HaFQZaaSNIrbZDBnA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-20","start_date_in_tc_time_zone":"2026-08-20","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"UnsTOkoelA--oPYqocKqd9WUxhaN--Sz0BlRv0qTUuVo4ticRncg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-20","start_date_in_tc_time_zone":"2026-08-20","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"uv0JCPWhKw--hsp3toipbhe6mPiK--8EymR_KRkejr54adyF2DDw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-20","start_date_in_tc_time_zone":"2026-08-20","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"Giflw-MfBw--r0KJ3kVxqcIlzTeR--XFVVebkrBzZWJBFmaAcO2Q","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-20","start_date_in_tc_time_zone":"2026-08-20","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"JkVnbGpPTw--QsKaIv-fzahH7-FL--F9GmCnaE3Sg9tBrNRBb22A","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-20","start_date_in_tc_time_zone":"2026-08-20","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"uv0JCPWhKw--hsp3toipbhe6mPiK--8EymR_KRkejr54adyF2DDw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-20","start_date_in_tc_time_zone":"2026-08-20","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"Giflw-MfBw--r0KJ3kVxqcIlzTeR--XFVVebkrBzZWJBFmaAcO2Q","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-20","start_date_in_tc_time_zone":"2026-08-20","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-20&end_date=2026-08-20
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-23&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-23&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"wHQ5FwB_uw--IdR--lHoIwl5Bk_N--joH9h3CQoQZQ9OeBiZeV6Q","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"J6YHVB2kKA--Q4jSFjPRhMCye7p2--KwLjVYnXmaLQJE3vLohFGA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"cqnUTPYtGA--5YAFI5ETn_1k5Tij--2VeFnqq1xEVEZdAJeKB2ig","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"wHQ5FwB_uw--IdR--lHoIwl5Bk_N--joH9h3CQoQZQ9OeBiZeV6Q","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"J6YHVB2kKA--Q4jSFjPRhMCye7p2--KwLjVYnXmaLQJE3vLohFGA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"Az_fi-q-aw--OwrYmTS70WmqvYQv--S1AmXWIQN-27FCzIe1gtVA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"Op6RD42CBQ--9ZV4GqmtyCSDNCKf--EUAg11gL4L0ku--8_k1-Ug","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"ZOKdv2N9fw--7mTf0UgTwba7qd9V--fnbdG_3aLOu5w3LIWIi9mA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"Az_fi-q-aw--OwrYmTS70WmqvYQv--S1AmXWIQN-27FCzIe1gtVA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"Op6RD42CBQ--9ZV4GqmtyCSDNCKf--EUAg11gL4L0ku--8_k1-Ug","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-23","start_date_in_tc_time_zone":"2026-08-23","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-23&end_date=2026-08-23
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-19&end_date=2026-08-19
+[takamol/sessions] targeted=3 prometric=0 sites=0
+
+╔═══════════════════════════════════════════════════════════
+║  [SERVER] Incoming Rebook Request
+╠═══════════════════════════════════════════════════════════
+║  categoryId:    159
+║  occupationId:  2061
+║  cityName:      Barishal
+║  newDate:       2026-08-19
+║  examSessionId: pk6_dGjy5w--3dvpLXWYd3oXbkUH--XN7txrMEIt__TWoItHeI4g
+║  languageCode:  LOABB (PROMETRIC code, e.g. LOABB)
+║  methodology:   in_person
+║  siteId:        180
+║  siteCity:      Barishal
+║  duration:      null
+║  startAt:       2026-08-19
+╚═══════════════════════════════════════════════════════════
+
+[API REBOOK] Slot hold: 422 holdId=null
+[API REBOOK] Payload to SVPI: {"exam_session_id":"pk6_dGjy5w--3dvpLXWYd3oXbkUH--XN7txrMEIt__TWoItHeI4g","occupation_id":2061,"language_code":"LOABB","methodology":"in_person","site_id":180,"site_city":"Barishal","hold_id":null,"duration":null,"start_at":"2026-08-19","country_id":78,"accept_declaration":true,"info_confirmation":true,"practical_confirmation":true}
+[API REBOOK] Response: 200 OK
+[API REBOOK] Response body: {"id":5156610,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+[API REBOOK] Paying for reservation 5156610: {"methodology_type":"in_person","reservation_id":"5156610","occupation_id":2061}
+[API REBOOK] Payment: 400 FAIL
+[API REBOOK] Payment body: {"errors":{"reservation":{"reservation_credit":["Reservation credits is not found"]}}}
+[API REBOOK] Payment failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist.
+[exam/rebook] Raw result: {"ok":false,"status":400,"data":{"id":5156610,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practical Form - L1","practical_weight":75,"prometric_codes":[{"arabic_name":"النيبالية","code":"LOANN","english_name":"Nepali","exam_engine_id":1,"exam_engine_name":"prometric","id":643,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_name":"النيبالية","code":"f5fac3ae-30c1-450c-87a4-0b4346e3a2a7","english_name":"Nepali","exam_engine_id":2,"exam_engine_name":"tep","id":688,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_na
+[exam/rebook] Failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist. 400 {"id":5156610,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+
+╔═══════════════════════════════════════════════════════════
+║  [SERVER] Incoming Rebook Request
+╠═══════════════════════════════════════════════════════════
+║  categoryId:    159
+║  occupationId:  2061
+║  cityName:      Barishal
+║  newDate:       2026-08-19
+║  examSessionId: tLYzMEjdbw--G9AIJ1YK9rju2EMN--tKV87jWxAVBJvteZdAmJYA
+║  languageCode:  LOABB (PROMETRIC code, e.g. LOABB)
+║  methodology:   in_person
+║  siteId:        180
+║  siteCity:      Barishal
+║  duration:      null
+║  startAt:       2026-08-19
+╚═══════════════════════════════════════════════════════════
+
+[API REBOOK] Slot hold: 429 holdId=null
+[API REBOOK] Payload to SVPI: {"exam_session_id":"tLYzMEjdbw--G9AIJ1YK9rju2EMN--tKV87jWxAVBJvteZdAmJYA","occupation_id":2061,"language_code":"LOABB","methodology":"in_person","site_id":180,"site_city":"Barishal","hold_id":null,"duration":null,"start_at":"2026-08-19","country_id":78,"accept_declaration":true,"info_confirmation":true,"practical_confirmation":true}
+[API REBOOK] Response: 200 OK
+[API REBOOK] Response body: {"id":5156618,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+[API REBOOK] Paying for reservation 5156618: {"methodology_type":"in_person","reservation_id":"5156618","occupation_id":2061}
+[API REBOOK] Payment: 400 FAIL
+[API REBOOK] Payment body: {"errors":{"reservation":{"reservation_credit":["Reservation credits is not found"]}}}
+[API REBOOK] Payment failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist.
+[exam/rebook] Raw result: {"ok":false,"status":400,"data":{"id":5156618,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practical Form - L1","practical_weight":75,"prometric_codes":[{"arabic_name":"النيبالية","code":"LOANN","english_name":"Nepali","exam_engine_id":1,"exam_engine_name":"prometric","id":643,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_name":"النيبالية","code":"f5fac3ae-30c1-450c-87a4-0b4346e3a2a7","english_name":"Nepali","exam_engine_id":2,"exam_engine_name":"tep","id":688,"language_code":"ne","non_targeted":false,"question_count":15},{"arabic_na
+[exam/rebook] Failed: Payment step returned HTTP 400. The reservation exists but needs payment to persist. 400 {"id":5156618,"can_be_canceled":null,"can_be_rescheduled":null,"cancellation_reason":null,"cancelled_by":null,"category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","cbt_weight":25,"cbt_weight_non_targeted":100,"country_category":null,"english_name":"Load and unload workers","exam_type":"cbt_and_practical","exam_type_non_targeted":"cbt","min_score":null,"occupations":["Load and Unload Worker","Carrier","Wheelbarrow worker"],"practical_exam_weight_non_targeted":0,"practical_form_name":"Practi
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-18&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-18&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"Z2wWuJoqBA--9PJ7Oh-FyR_D2h2j--AdsQQYaOrVMtuReCM8nYzw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"8F_L2kouKg--o8RwHFgCzNkLyXv6--vjBqqn4qzQF_JeNTM0Hzbg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"GerY2xGFRA--TgYNACSncjrWmtFx--DyArxmCxWVWRu49Uia3DdQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"TEcV_AQwFQ--C_4FMJfu-x6hOg81--d9ISGjgUSEda3cQK9_j8Uw","browser_time_zone_offset":"UTC+
+[takamol] fetchExamSessions raw count: 4
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"Z2wWuJoqBA--9PJ7Oh-FyR_D2h2j--AdsQQYaOrVMtuReCM8nYzw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"8F_L2kouKg--o8RwHFgCzNkLyXv6--vjBqqn4qzQF_JeNTM0Hzbg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 4 (was 4)
+[takamol/sessions] targeted=4 prometric=0 sites=0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"51AdP3vkQA--slB74naIrb9w5vex--hr4gNGaVxc38l7xHVlEViA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"cwHfVTP7sw--zWCJ24liUO90GiIw--vtSmeUsj8elkH_5yYRC9HQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"N1O1Rbq7Fw--dYDh_XmzTuBtIfzi--ScJZ2g_tU7tetY82untXQg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"UKclRWnblg--oHQnSE2tgspTHQWe--gzYdls-INtJqQ8Bg39W1qw","browser_time_zone_offset":"UTC+
+[takamol] fetchExamSessions raw count: 4
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"51AdP3vkQA--slB74naIrb9w5vex--hr4gNGaVxc38l7xHVlEViA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"cwHfVTP7sw--zWCJ24liUO90GiIw--vtSmeUsj8elkH_5yYRC9HQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-18","start_date_in_tc_time_zone":"2026-08-18","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 4 (was 4)
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-18&end_date=2026-08-18
+[takamol/sessions] targeted=4 prometric=0 sites=0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-24&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-24&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"apnLob6Xwg--rn6J_efiiut5oeCz--PxA9FITz_qlbD_sH8wD1RQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"hmyR96xqCw--3KMK22qv4pt_RBRM--CysixyEMbrmUxBk9vZsyuQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"jQ6biV8s9A--uLNdQk5RImTW4dKn--honYXHZdlkXyzwd7idsGPA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"apnLob6Xwg--rn6J_efiiut5oeCz--PxA9FITz_qlbD_sH8wD1RQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"hmyR96xqCw--3KMK22qv4pt_RBRM--CysixyEMbrmUxBk9vZsyuQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"bP5ZBzhxRQ--20D3amIuQifO_u0i--QRDRfQTjFGt8kDdxl30_QA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"ctMeNcUR-g--8Uy448ti6xUYUAeq--79LAhM2U9AP7EBl12L2uUg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"COhnFnc9bg--2c4GlAQdmVnHKyQN--iO8smJ35PPs3u3s1ArnYCg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"bP5ZBzhxRQ--20D3amIuQifO_u0i--QRDRfQTjFGt8kDdxl30_QA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"ctMeNcUR-g--8Uy448ti6xUYUAeq--79LAhM2U9AP7EBl12L2uUg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-24","start_date_in_tc_time_zone":"2026-08-24","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-24&end_date=2026-08-24
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-25&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-25&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"e74rO9G2kw--s4FpZIA_2WpgryU5--2nqDYVK4fbieExeJRSMZhg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-25","start_date_in_tc_time_zone":"2026-08-25","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"cfUk7acjgg--J4-OSq96ADsjK8Gc--8-PZKo49WCNoM8jAfe8M8A","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-25","start_date_in_tc_time_zone":"2026-08-25","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"dr4kuzAcug--Rdv8yOU7f9HL2ov4--ZOfkWHnjtt0iTnNx4ZwC6Q","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-25","start_date_in_tc_time_zone":"2026-08-25","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"y5kWTI0Uqg--_B9qVsl7Nbn8mF9u--hhPbrfd1rGIE_9q_-hJLLg","browser_time_zone_offset":"UTC+
+[takamol] fetchExamSessions raw count: 4
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"e74rO9G2kw--s4FpZIA_2WpgryU5--2nqDYVK4fbieExeJRSMZhg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-25","start_date_in_tc_time_zone":"2026-08-25","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"cfUk7acjgg--J4-OSq96ADsjK8Gc--8-PZKo49WCNoM8jAfe8M8A","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-25","start_date_in_tc_time_zone":"2026-08-25","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 4 (was 4)
+[takamol/sessions] targeted=4 prometric=0 sites=0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"7Y2HUlZ4Gg--6fd-2GmhlFlyCELQ--VxQX0Mh7fs3ZBWCg36vSYA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-25","start_date_in_tc_time_zone":"2026-08-25","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"qHBpUA4FAg--67NGPDii5KQpS-9u--1fx8GHzClTJE_f23oCIMvg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-25","start_date_in_tc_time_zone":"2026-08-25","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"GjNDBDXKcw--UpMmq40MRmghYA8L--pragEq0QdWyAkD7gGd_T7Q","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-25","start_date_in_tc_time_zone":"2026-08-25","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"FQc14PMXiQ--iXEUHcGplbrkGjJc--WQ5Mt-ZKlaBMHeT1kPif2A","browser_time_zone_offset":"UTC+
+[takamol] fetchExamSessions raw count: 4
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"7Y2HUlZ4Gg--6fd-2GmhlFlyCELQ--VxQX0Mh7fs3ZBWCg36vSYA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-25","start_date_in_tc_time_zone":"2026-08-25","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"qHBpUA4FAg--67NGPDii5KQpS-9u--1fx8GHzClTJE_f23oCIMvg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-25","start_date_in_tc_time_zone":"2026-08-25","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 4 (was 4)
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-25&end_date=2026-08-25
+[takamol/sessions] targeted=4 prometric=0 sites=0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-27&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-27&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"gUTAdOz3tA--ftOuisy8sCzaIF4r--K1_izqJus_2E72SCFhuZiQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-27","start_date_in_tc_time_zone":"2026-08-27","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"qvIdJpdKSg--wTomXP31HnpZapel--XcMi-JSIaFIi6PFlvDKKdQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-27","start_date_in_tc_time_zone":"2026-08-27","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"lAoXOho4Fg--lyz8-cotbQkZGAoA--voSUbuh8AcwGuW1Asu0okA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-27","start_date_in_tc_time_zone":"2026-08-27","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"gUTAdOz3tA--ftOuisy8sCzaIF4r--K1_izqJus_2E72SCFhuZiQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-27","start_date_in_tc_time_zone":"2026-08-27","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"qvIdJpdKSg--wTomXP31HnpZapel--XcMi-JSIaFIi6PFlvDKKdQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-27","start_date_in_tc_time_zone":"2026-08-27","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"9EqYxlmmsQ--sQYpDKm3HsuZ52pd--2X0FkgjaS4NGf0VrAVZN3Q","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-27","start_date_in_tc_time_zone":"2026-08-27","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"L1KVvNZy-w--OGG9I-B6TWJ6_QGo--O5REhVo9HZXwXE8IHBZYBA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-27","start_date_in_tc_time_zone":"2026-08-27","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"b3V_cfN_mA--RL7uQ_CPzcyoHV6T--zFAOHh6EPx11mBiEE-olNQ","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-27","start_date_in_tc_time_zone":"2026-08-27","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"9EqYxlmmsQ--sQYpDKm3HsuZ52pd--2X0FkgjaS4NGf0VrAVZN3Q","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-27","start_date_in_tc_time_zone":"2026-08-27","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"L1KVvNZy-w--OGG9I-B6TWJ6_QGo--O5REhVo9HZXwXE8IHBZYBA","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-27","start_date_in_tc_time_zone":"2026-08-27","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-27&end_date=2026-08-27
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-30&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-30&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"qhK8tY2MZg--mnjMIY17OjYqpDHV--68f4r4X_xIje3uxxnnSSow","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-30","start_date_in_tc_time_zone":"2026-08-30","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"D8aNmkqvvQ--h-A9vZxqSUxY-iCk---PNo02fZqMvVRyZ3PHAHyg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-30","start_date_in_tc_time_zone":"2026-08-30","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"N4BxbbPTmg--pSsu5Buz1j73mUoG--R_0Bhjn8m28DG36sp7ABZg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-30","start_date_in_tc_time_zone":"2026-08-30","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"qhK8tY2MZg--mnjMIY17OjYqpDHV--68f4r4X_xIje3uxxnnSSow","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-30","start_date_in_tc_time_zone":"2026-08-30","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"D8aNmkqvvQ--h-A9vZxqSUxY-iCk---PNo02fZqMvVRyZ3PHAHyg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-30","start_date_in_tc_time_zone":"2026-08-30","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-30&end_date=2026-08-30
+[takamol] fetchExamSessions top-level keys: [ 'exam_sessions', 'pagination' ]
+[takamol] fetchExamSessions full response: {"exam_sessions":[{"id":"7eTz2Y7YaA--_7urCZrJJ1Eu6yqj--oJref1ieLfD9zLBjvVmNSg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-30","start_date_in_tc_time_zone":"2026-08-30","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"QlW6InMuEA--4n12bc_auXvHcTBF--uIZcn-wYvTqnYF_enrwSvw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-30","start_date_in_tc_time_zone":"2026-08-30","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"},{"id":"F3j1xJn1bQ--zxQ3jqXWfkROSer_--pMLUHs4iB8r77-0-Pnnf1g","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-30","start_date_in_tc_time_zone":"2026-08-30","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}],"pagination":{"current":1,"previous":null,"next":null,"per_page":25,"pages":1,"count":3}}
+[takamol] fetchExamSessions raw count: 3
+[takamol] fetchExamSessions first item keys: [
+  'id',
+  'browser_time_zone_offset',
+  'category',
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'status',
+  'test_center',
+  'time_zone_name'
+]
+[takamol] fetchExamSessions first item full: {"id":"7eTz2Y7YaA--_7urCZrJJ1Eu6yqj--oJref1ieLfD9zLBjvVmNSg","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-30","start_date_in_tc_time_zone":"2026-08-30","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions second item full: {"id":"QlW6InMuEA--4n12bc_auXvHcTBF--uIZcn-wYvTqnYF_enrwSvw","browser_time_zone_offset":"UTC+00:00","category":{"id":159,"arabic_name":"عمال التحميل والتنزيل","english_name":"Load and unload workers","exam_type":"cbt_and_practical","published":true},"start_date_in_browser_time_zone":"2026-08-30","start_date_in_tc_time_zone":"2026-08-30","status":"scheduled","test_center":{"city":"Barishal","country_code":"+880","country_id":78},"time_zone_name":"Asia/Dhaka"}
+[takamol] fetchExamSessions after date filter: 3 (was 3)
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol/sessions] targeted=3 prometric=0 sites=0
+[takamol] fetchAvailableDates: 465 raw items
+[takamol] fetchAvailableDates first item keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol] fetchAvailableDates first item: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Raw dates count: 465
+[takamol/dates] Sample raw_date keys: [
+  'start_date_in_browser_time_zone',
+  'start_date_in_tc_time_zone',
+  'test_center'
+]
+[takamol/dates] Sample raw_date: {"start_date_in_browser_time_zone":"2026-08-10","start_date_in_tc_time_zone":"2026-08-10","test_center":{"city":"Dhaka"}}
+[takamol/dates] Unique dates: 22
+[takamol/dates] Sessions by date: {
+  '2026-08-10': 18,
+  '2026-08-11': 19,
+  '2026-08-12': 20,
+  '2026-08-13': 21,
+  '2026-08-15': 5,
+  '2026-08-16': 24,
+  '2026-08-17': 27,
+  '2026-08-18': 33,
+  '2026-08-19': 36,
+  '2026-08-20': 35,
+  '2026-08-22': 9,
+  '2026-08-23': 34,
+  '2026-08-24': 35,
+  '2026-08-25': 30,
+  '2026-08-26': 8,
+  '2026-08-27': 31,
+  '2026-08-29': 8,
+  '2026-08-30': 35,
+  '2026-08-31': 34,
+  '2026-09-06': 1,
+  '2026-10-04': 1,
+  '2026-11-01': 1
+}
+[svp-playwright] authenticatedFetch fell back to direct fetch: apiRequestContext.fetch: getaddrinfo ENOTFOUND svp-international-api.pacc.sa
+Call log:
+[2m  - → GET https://svp-international-api.pacc.sa/api/v1/individual_labor_space/profile[22m
+[2m    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36[22m
+[2m    - accept: application/json[22m
+[2m    - accept-encoding: gzip,deflate,br[22m
+[2m    - Origin: https://svp-international.pacc.sa[22m
+[2m    - Referer: https://svp-international.pacc.sa/[22m
+[2m    - Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3ODYyNzI2OTYsInVzZXJfaWQiOjEyNjgwMzAsImF1dGhfcHJvdmlkZXIiOiJsb2NhbCIsInVpZCI6ImE5YWIxM2JlLTFlMTQtNDY0My05YzVkLTM3Yjk4ODE0M2EwYiIsInJ1aWQiOiIzZjk4YTM3NS0yZjdjLTQwNGYtOGM3Ni1iMjJkYzI4YmUwMDAifQ.TyMr128zE3zYCkRIViYCSpiT9DiEhFh7Wq9YkOWs5wo[22m
+[2m    - cookie: _clck=qqgb6%5E2%5Eg8g%5E0%5E2412; _ga=GA1.1.1664540624.1786266759; _clsk=1yjle8o%5E1786266881195%5E3%5E1%5Ea.clarity.ms%2Fcollect; _ga_HMPM42FXCZ=GS2.1.s1786266758$o1$g1$t1786266881$j60$l0$h0; _hjSessionUser_2817547=eyJpZCI6IjIwNTA2N2ZmLWMzNzEtNWJiYi1hMDRkLTIxODg1YzI0M2ZjYiIsImNyZWF0ZWQiOjE3ODYyNjY3NTg3NTksImV4aXN0aW5nIjp0cnVlfQ==[22m
+
+[exam/sessions] Error: fetch failed
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-18&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-18&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[svp-playwright] browser launch failed, falling back to direct fetch: page.goto: net::ERR_ABORTED at https://svp-international.pacc.sa/
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa/", waiting until "domcontentloaded"[22m
+
+[svp-playwright] authenticatedFetch fell back to direct fetch: fetch failed
+[takamol/sessions] targeted exam_sessions fetch failed: fetch failed
+[takamol/sessions] targeted=0 prometric=0 sites=0
+[svp-playwright] browser launch failed, falling back to direct fetch: page.goto: net::ERR_NAME_NOT_RESOLVED at https://svp-international.pacc.sa/
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa/", waiting until "domcontentloaded"[22m
+
+[svp-playwright] authenticatedFetch fell back to direct fetch: fetch failed
+[takamol/sessions] targeted exam_sessions fetch failed: fetch failed
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-18&end_date=2026-08-18
+[svp-playwright] browser launch failed, falling back to direct fetch: page.goto: net::ERR_NAME_NOT_RESOLVED at https://svp-international.pacc.sa/
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa/", waiting until "domcontentloaded"[22m
+
+[svp-playwright] authenticatedFetch fell back to direct fetch: fetch failed
+[takamol/sessions] prometric slots fetch failed: fetch failed
+[takamol/sessions] targeted=0 prometric=0 sites=0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-19&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-19&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[svp-playwright] browser launch failed, falling back to direct fetch: page.goto: net::ERR_NAME_NOT_RESOLVED at https://svp-international.pacc.sa/
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa/", waiting until "domcontentloaded"[22m
+
+[svp-playwright] authenticatedFetch fell back to direct fetch: fetch failed
+[takamol/sessions] targeted exam_sessions fetch failed: fetch failed
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-19&end_date=2026-08-19
+[svp-playwright] browser launch failed, falling back to direct fetch: browser.newContext: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa", waiting until "load"[22m
+
+[svp-playwright] authenticatedFetch fell back to direct fetch: fetch failed
+[takamol/sessions] targeted exam_sessions fetch failed: fetch failed
+[takamol/sessions] targeted=0 prometric=0 sites=0
+[svp-playwright] browser launch failed, falling back to direct fetch: page.goto: net::ERR_NAME_NOT_RESOLVED at https://svp-international.pacc.sa/
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa/", waiting until "domcontentloaded"[22m
+
+[svp-playwright] authenticatedFetch fell back to direct fetch: fetch failed
+[takamol/sessions] prometric slots fetch failed: fetch failed
+[takamol/sessions] targeted=0 prometric=0 sites=0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-18&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[takamol] fetchExamSessions: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/exam_sessions?category_id=159&exam_date=2026-08-18&city=Barishal&test_center_id=180&available_seats=greater_than%3A%3A0
+[svp-playwright] browser launch failed, falling back to direct fetch: page.goto: net::ERR_NAME_NOT_RESOLVED at https://svp-international.pacc.sa/
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa/", waiting until "domcontentloaded"[22m
+
+[svp-playwright] authenticatedFetch fell back to direct fetch: fetch failed
+[takamol/sessions] targeted exam_sessions fetch failed: fetch failed
+[takamol] fetchPrometricSites: https://svp-international-api.pacc.sa/api/v1/individual_labor_space/prometric_scheduling/sites_availabilities?prometric_code=LOABB&city=Barishal&start_date=2026-08-18&end_date=2026-08-18
+[svp-playwright] browser launch failed, falling back to direct fetch: browser.newContext: Error setting storage state:
+Target page, context or browser has been closed
+[svp-playwright] authenticatedFetch fell back to direct fetch: fetch failed
+[takamol/sessions] targeted exam_sessions fetch failed: fetch failed
+[takamol/sessions] targeted=0 prometric=0 sites=0
+[svp-playwright] browser launch failed, falling back to direct fetch: page.goto: net::ERR_NAME_NOT_RESOLVED at https://svp-international.pacc.sa/
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa/", waiting until "domcontentloaded"[22m
+
+[svp-playwright] authenticatedFetch fell back to direct fetch: fetch failed
+[takamol/sessions] prometric slots fetch failed: fetch failed
+[takamol/sessions] targeted=0 prometric=0 sites=0
+[Login] Fatal error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://svp-international.pacc.sa/auth/login?role=labor
+Call log:
+[2m  - navigating to "https://svp-international.pacc.sa/auth/login?role=labor", waiting until "domcontentloaded"[22m
+
+▲ Next.js 16.2.10
+- Local:         http://localhost:3101
+- Network:       http://100.75.190.73:3101
+✓ Ready in 265ms

@@ -218,5 +218,27 @@
    "english_name": "Bangladesh"
   },
   "name": "Tangail Technical Training Center"
- }
+ },
+   {
+    "id": 45,
+    "address": "Mirpur -2, Dhaka 1216, Bangladesh",
+    "city": "Dhaka",
+    "country": {
+      "id": 78,
+      "arabic_name": "بنجلاديش",
+      "english_name": "Bangladesh"
+    },
+    "name": "Bangladesh German TTC"
+  },
+  {
+    "id": 17,
+    "address": "Q9J2+8X8, Mirpur Rd, Dhaka, Bangladesh",
+    "city": "Dhaka",
+    "country": {
+      "id": 78,
+      "arabic_name": "بنجلاديش",
+      "english_name": "Bangladesh"
+    },
+    "name": "Bangladesh Korea TTC Dhaka"
+  }
 ]

@@ -701,9 +701,28 @@ export async function rebookViaAPI({ occupationId, examSessionId, languageCode, 
       return { ok: false, status: result.status, data: result.data, error: 'createReservation returned 2xx but no reservation id.' };
     }
 
+    // Pre-flight: the SVPI wizard (chunk 6533 fetchUserCredits) only offers the
+    // credits payment when GET /users/{id}/balance?methodology_type=in_person&
+    // occupation_id=X returns a positive reservation_credits balance. Sending
+    // reservation_credits/use when the balance for this methodology+occupation
+    // is 0 (or mismatched) is what produces the HTTP 400 "reservation exists
+    // but needs payment to persist" fallback. Log the balance so we can tell
+    // "no credits" apart from "bad payload" before charging.
+    try {
+      const profile = await browserFetch(`${SVP_API_BASE}/individual_labor_space/profile`, { method: 'GET' });
+      const userId = profile.data?.id || profile.data?.data?.id || profile.data?.labor?.id;
+      const balRes = await browserFetch(`${SVP_API_BASE}/users/${userId}/balance?methodology_type=in_person&occupation_id=${Number(occupationId) || occupationId}`, { method: 'GET' });
+      console.log(`[API REBOOK] Credits for occupation ${occupationId} (user ${userId}): ${balRes.status} ${JSON.stringify(balRes.data).substring(0, 300)}`);
+    } catch (e) {
+      console.warn('[API REBOOK] Credit pre-check skipped:', e.message);
+    }
+
     const payBody = {
       methodology_type: methodology || 'in_person',
-      reservation_id: String(reservationId),
+      // NOTE: SVPI's wizard passes the raw numeric reservation id (createReservation
+      // response data.id). Stringifying it here can be the cause of the 400 when the
+      // API does strict integer coercion, so send the raw value.
+      reservation_id: reservationId,
       occupation_id: Number(occupationId) || occupationId
     };
     console.log(`[API REBOOK] Paying for reservation ${reservationId}: ${JSON.stringify(payBody)}`);
@@ -714,7 +733,7 @@ export async function rebookViaAPI({ occupationId, examSessionId, languageCode, 
     });
 
     console.log(`[API REBOOK] Payment: ${payRes.status} ${payRes.ok ? 'OK' : 'FAIL'}`);
-    console.log(`[API REBOOK] Payment body: ${JSON.stringify(payRes.data).substring(0, 500)}`);
+    console.log(`[API REBOOK] Payment full response: ${JSON.stringify(payRes).substring(0, 1500)}`);
 
     const paidReservation = payRes.data?.reservation || payRes.data?.exam_reservation || payRes.data;
     const paidId = paidReservation?.id || paidReservation?.reservation_id || paidReservation?.reservationId;
