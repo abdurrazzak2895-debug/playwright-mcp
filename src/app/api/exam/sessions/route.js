@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { isLoggedIn, authenticatedFetch, logout } from '@/lib/svp-playwright';
 
 export const dynamic = 'force-dynamic';
+export const maxDuration = 60;
 
 const SVP_API = 'https://svp-international-api.pacc.sa/api/v1';
 const BANGLADESH_ID = 78;

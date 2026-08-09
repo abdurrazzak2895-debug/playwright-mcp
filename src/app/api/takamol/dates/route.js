@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { fetchAvailableDates, fetchCities, fetchRescheduleAvailableDates } from '@/lib/takamol';
 
 export const dynamic = 'force-dynamic';
+export const maxDuration = 60;
 
 export async function POST(request) {
   try {

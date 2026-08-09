@@ -14,6 +14,7 @@
 import { chromium } from 'playwright';
 import { writeFileSync, readFileSync, existsSync } from 'fs';
 import { join } from 'path';
+import { homedir } from 'os';
 import { getToken as getAuthToken, isLoggedIn as checkLoggedIn, logout as doLogout } from './svp-auth.js';
 
 export { checkLoggedIn as isLoggedIn, doLogout as logout, getAuthToken as getToken };
@@ -31,6 +32,55 @@ const STORAGE_FILE = join(process.cwd(), '.svp-storage.json');
 // so launch via the signed Microsoft Edge instead. Other platforms (e.g. a Linux
 // VPS) keep using Playwright's bundled Chromium, which works fine there.
 const BROWSER_LAUNCH_OPTS = process.platform === 'win32' ? { channel: 'msedge' } : {};
+
+// ─── Browser Executable Resolution ─────────────────────────────────
+// On Vercel / Linux the bundled Chromium is installed into the project under
+// node_modules/playwright-core/.local-browsers (PLAYWRIGHT_BROWSERS_PATH=0) so
+// it ships inside the serverless function bundle. This helper locates the exact
+// executable file deterministically, so launching works even if the runtime env
+// var was never set or points at a non-existent directory.
+function resolveChromiumExecutable() {
+  if (process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE && existsSync(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE)) {
+    return process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE;
+  }
+
+  let revision = null;
+  try {
+    const browsersJsonPath = join(process.cwd(), 'node_modules', 'playwright-core', 'browsers.json');
+    const browsers = JSON.parse(readFileSync(browsersJsonPath, 'utf-8')).browsers || [];
+    const entry = browsers.find((b) => b.name === 'chromium');
+    revision = entry ? entry.revision : null;
+  } catch {}
+  if (!revision) return null;
+
+  const binaryPath = process.platform === 'win32'
+    ? join('chrome-win64', 'chrome.exe')
+    : process.platform === 'darwin'
+      ? join('chrome-mac', 'Chromium.app', 'Contents', 'MacOS', 'Chromium')
+      : join('chrome-linux64', 'chrome');
+
+  const installRoots = [
+    join(process.cwd(), 'node_modules', 'playwright-core', '.local-browsers'),
+    join(homedir(), '.cache', 'ms-playwright'),
+    join(process.env.HOME || '/root', '.cache', 'ms-playwright')
+  ];
+
+  for (const root of installRoots) {
+    const candidate = join(root, `chromium-${revision}`, binaryPath);
+    if (existsSync(candidate)) return candidate;
+  }
+  return null;
+}
+
+function getLaunchOptions(overrides = {}) {
+  const options = { ...BROWSER_LAUNCH_OPTS };
+  // `channel` (signed Edge on Windows) and `executablePath` are mutually exclusive.
+  if (!options.channel) {
+    const executablePath = resolveChromiumExecutable();
+    if (executablePath) options.executablePath = executablePath;
+  }
+  return Object.assign(options, overrides);
+}
 
 let managedBrowser = null;
 let managedContext = null;
@@ -66,8 +116,7 @@ async function ensureManagedBrowser() {
   const token = getAuthToken();
   if (!token) throw new Error('Not authenticated');
 
-  managedBrowser = await chromium.launch({
-    ...BROWSER_LAUNCH_OPTS,
+  managedBrowser = await chromium.launch(getLaunchOptions({
     headless: true,
     args: [
       '--no-sandbox',
@@ -75,7 +124,7 @@ async function ensureManagedBrowser() {
       '--disable-dev-shm-usage',
       '--disable-blink-features=AutomationControlled'
     ]
-  });
+  }));
 
   // Reuse the SPA session captured at login (cookies incl. the HTTP-only
   // refresh cookie + localStorage tokens) so the managed context can keep the
@@ -195,8 +244,7 @@ export function login() {
 async function doLogin() {
   let browser = null;
   try {
-    browser = await chromium.launch({
-      ...BROWSER_LAUNCH_OPTS,
+    browser = await chromium.launch(getLaunchOptions({
       headless: false,
       args: [
         '--no-sandbox',
@@ -206,7 +254,7 @@ async function doLogin() {
         '--window-size=480,650',
         '--window-position=400,100'
       ]
-    });
+    }));
 
     const context = await browser.newContext({
       viewport: { width: 480, height: 650 },

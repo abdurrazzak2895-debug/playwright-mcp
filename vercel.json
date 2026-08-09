@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "installCommand": "npm install --no-audit --no-fund && PLAYWRIGHT_BROWSERS_PATH=0 npx playwright install --with-deps chromium",
+  "buildCommand": "next build",
+  "env": {
+    "PLAYWRIGHT_BROWSERS_PATH": "0"
+  }
+}

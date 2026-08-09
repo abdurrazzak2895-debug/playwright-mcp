@@ -1,6 +1,7 @@
 import { isLoggedIn, authenticatedFetch } from '@/lib/svp-playwright';
 
 export const dynamic = 'force-dynamic';
+export const maxDuration = 60;
 
 const SVP_API = 'https://svp-international-api.pacc.sa/api/v1';
 

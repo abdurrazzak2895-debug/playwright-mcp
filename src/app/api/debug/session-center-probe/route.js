@@ -3,6 +3,7 @@ import { fetchExamSessions } from '@/lib/takamol';
 import { isLoggedIn, authenticatedFetch } from '@/lib/svp-playwright';
 
 export const dynamic = 'force-dynamic';
+export const maxDuration = 60;
 
 export async function GET(request) {
   try {

@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { fetchExamSessions, fetchPrometricSites, fetchPrometricSlots } from '@/lib/takamol';
 
 export const dynamic = 'force-dynamic';
+export const maxDuration = 60;
 
 // Merge slot data with its site so each session carries the test center name.
 function mergeSlotsWithSites(slotsGroups, sites) {
