@@ -17,4 +17,4 @@ RUN npm run build
 EXPOSE 8080
 ENV PORT=8080
 
-CMD ["npm", "run", "start"]
+CMD ["sh", "-c", "xvfb-run -a --server-args='-screen 0 1280x1024x24' npm run start"]
