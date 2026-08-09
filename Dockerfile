@@ -10,6 +10,9 @@ RUN npm install
 # Install full Chromium (not --only-shell) plus its system deps
 RUN npx playwright install --with-deps chromium
 
+# xvfb-run needs xauth to manage X authority cookies
+RUN apt-get update && apt-get install -y --no-install-recommends xauth && rm -rf /var/lib/apt/lists/*
+
 COPY . .
 
 RUN npm run build
